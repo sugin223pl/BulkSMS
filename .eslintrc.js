@@ -1,11 +1,13 @@
 module.exports = {
   root: true,
   env: {
+    "browser": true,
     node: true,
+    "jquery": true
   },
   extends: [
     'plugin:vue/essential',
-    '@vue/airbnb',
+    'eslint:recommended'
   ],
   parserOptions: {
     parser: 'babel-eslint',
